@@ -1,0 +1,137 @@
+.game-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  
+  .game-header {
+    margin-bottom: 32px;
+  }
+  
+  .game-header h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .game-header p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .game-container {
+    width: 100%;
+    background: #111;
+    border: 1px solid #1e1e1e;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  
+  .game-frame {
+    width: 100%;
+    height: 600px;
+    border: none;
+    display: block;
+  }
+  
+  .game-placeholder {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .placeholder-content {
+    text-align: center;
+  }
+  
+  .game-icon {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  
+  .placeholder-content h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  
+  .placeholder-content p {
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .placeholder-sub {
+    color: #444 !important;
+    font-size: 13px;
+  }
+  
+  .build-instructions {
+    margin-top: 24px;
+    padding: 20px;
+    background: #0a0a0a;
+    border-radius: 12px;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .build-instructions p {
+    color: #555;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  
+  .build-instructions code {
+    display: block;
+    color: #4a9eff;
+    font-size: 13px;
+    margin: 4px 0;
+    font-family: monospace;
+  }
+  
+  .game-phases h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  
+  .phase-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+  }
+  
+  .phase-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 12px;
+    background: #111;
+    border: 1px solid #1e1e1e;
+    border-radius: 12px;
+    text-align: center;
+    gap: 6px;
+    transition: border-color 0.2s;
+  }
+  
+  .phase-item:hover {
+    border-color: #4a9eff;
+  }
+  
+  .phase-icon {
+    font-size: 28px;
+  }
+  
+  .phase-num {
+    font-size: 11px;
+    color: #4a9eff;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .phase-title {
+    font-size: 13px;
+    color: #888;
+  }
