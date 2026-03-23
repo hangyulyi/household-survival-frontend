@@ -17,7 +17,7 @@ const TIER_CONFIG = [
 export const getTier = (score) => TIER_CONFIG.find(t => score >= t.min);
 
 const Home = () => {
-  const { user, token }       = useAuth();
+  const { } = useAuth(); // eslint-disable-line
   const navigate              = useNavigate();
   const [countries, setCountries] = useState([]);
   const [wbData, setWbData]   = useState({});

@@ -4,6 +4,7 @@ import './Game.css';
 
 const Game = () => {
   const { token } = useAuth();
+  // eslint-disable-next-line
   const iframeRef = useRef(null);
 
   // Once Unity WebGL build is embedded, pass the token into it
