@@ -31,7 +31,7 @@ const Game = () => {
 
         // Pass JWT token into Unity so APIClient.cs can use it
         if (token) {
-          unityInstance.SendMessage('APIClient', 'SetToken', token);
+            unityInstance.SendMessage('GameController', 'SetToken', token);
         }
       }).catch((msg) => {
         setError(msg);

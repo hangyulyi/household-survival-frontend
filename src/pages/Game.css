@@ -22,11 +22,15 @@
   
   .game-container {
     width: 100%;
-    background: #111;
+    min-height: 600px;
+    background: #000;
     border: 1px solid #1e1e1e;
     border-radius: 16px;
     overflow: hidden;
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .game-frame {
@@ -181,5 +185,8 @@
   
   #unity-canvas {
     display: block;
+    width: 960px !important;
+    height: 600px !important;
     margin: 0 auto;
+    background: #000;
   }
